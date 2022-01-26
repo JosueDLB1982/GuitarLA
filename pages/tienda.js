@@ -4,7 +4,7 @@ const tienda = () => {
   return (
     <>
     <Layout
-        page="Tienda"
+        page="Tienda Virtual"
     >
         <h1>Desde tienda.js</h1>
     </Layout>

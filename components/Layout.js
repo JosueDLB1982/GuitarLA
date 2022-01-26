@@ -1,17 +1,20 @@
 import Head from "next/head"
 import Header from "./Header"
+import Footer from "./Footer"
 
 const Layout = ({children, page}) => {
     return (
         <div>
             <Head>
-                <title>GuitarLA con Next.js y strapi - {page}</title>
+                <title>GuitarLA - {page}</title>
                 <meta name="description" content="Sitio Web de venta de Guitarras" />
             </Head>
 
             <Header/>
 
             {children}
+            
+            <Footer/>
         </div>
     )
 }
