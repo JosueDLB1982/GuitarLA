@@ -9,8 +9,6 @@ const Nosotros = () => {
             >
                 <h1>Desde nosotros.js</h1>
             </Layout>
-
-            <Link href="/">Ir a Inicio</Link>
         </>
     )
 }

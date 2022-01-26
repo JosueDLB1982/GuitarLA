@@ -11,8 +11,6 @@ export default function Home() {
       >
         <h1>Desde index.js</h1>
       </Layout>
-
-      <Link href="/nosotros">Ir a Nosotros</Link>
     </>
   )
 }
