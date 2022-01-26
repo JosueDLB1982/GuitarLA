@@ -1,12 +1,17 @@
 import Link from 'next/link'
+import Layout from './components/Layout'
 
 const Nosotros = () => {
     return (
-        <div>
-            <h1>Desde Nosotros.js</h1>
+        <>
+            <Layout
+                page="Nosotros"
+            >
+                <h1>Desde nosotros.js</h1>
+            </Layout>
 
-            <Link href="/">Ir a Index</Link>
-        </div>
+            <Link href="/">Ir a Inicio</Link>
+        </>
     )
 }
 
