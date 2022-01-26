@@ -34,6 +34,9 @@
 }
 
 .title a:hover,
+.card:hover {
+  color: greenyellow;
+}
 .title a:focus,
 .title a:active {
   text-decoration: underline;
